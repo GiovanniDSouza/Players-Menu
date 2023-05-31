@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #454545;
+}
+.elenco{
+    margin-top: -3px;
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.campo{
+    position: sticky;
+    border: 5px solid white;
+    margin: 50px auto;
+    padding: auto;
+    width: 1870px;
+    height: 830px;
+    background-color: #5B834D;
+}
+.meioRisca{
+    border: 2px solid white;
+    margin-top: -1px;
+    width: 2px;
+    height: 830px;
+    margin-left:920px;
+    background-color: white;
+}
+.meioBola{
+    position: absolute;
+    border: 4px solid white;
+    border-radius: 900px;
+   width: 308px;
+   height: 300px;
+    margin-top: -550px;
+    margin-left: 770px;
+}
+.trave{
+    position: absolute;
+    background-color: #5B834D;
+    height: 360px;
+    margin-top: -580px;
+}
+.traveOne{
+    position: absolute;
+    border: 2px solid white;
+    width: 272px;
+    height: 1px;
+    margin-left: -1px;
+    margin-top: -100px;
+    background-color: white;
+}
+.traveTwo{
+    border: 2px solid white;
+    width: 1px;
+    height: 520px;
+    margin-left: 270px;
+    margin-top: -100px;
+    background-color: white;
+}
+.traveThree{
+    position: absolute;
+    border: 2px solid white;
+    width: 272px;
+    height: 1px;
+    margin-left: -1px;
+    margin-top: -1px;
+    background-color: white;
+}
+.circulo{
+    border: 4px solid white;
+    border-radius: 280px;
+    width: 270px;
+    height: 280px;
+    margin-left: 100px;
+    margin-top: -565px;
+}
+.golTrave{
+    position: absolute;
+    border: 2px solid white;
+    width: 110px;
+    height: 1px;
+    margin-top: -377px;
+    background-color: white;
+}
+.golTraveOne{
+    position: absolute;
+    border: 4px solid white;
+    border-radius: 10px;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+    margin-left: 175px;
+    margin-top: -280px;
+}
+.golTraveTwo{
+    border: 2px solid white;
+    width: 1px;
+    height: 230px;
+    margin-top: -376px;
+    margin-left: 110px;
+    background-color: white;
+}
+.golTraveThree{
+    position: absolute;
+    border: 2px solid white;
+    width: 110px;
+    height: 1px;
+    margin-top: -5px;
+    background-color: white;
+}
+.traves{
+    position: absolute;
+    background-color: #5B834D;
+    margin-left: 1592px;
+    height: 530px;
+    margin-top: -680px;
+    
+}
+.travesOne{
+    border: 2px solid white;
+    width: 272px;
+    height: 1px;
+    margin-left: 2px;
+    margin-top: 1px;
+    background-color: white;
+}
+.travesTwo{
+    border: 2px solid white;
+    width: 1px;
+    height: 520px;
+    margin-left: 2px;
+    margin-top: -1px;
+    background-color: white;
+}
+.travesThree{
+    border: 2px solid white;
+    width: 272px;
+    height: 1px;
+    margin-left: 2px;
+    margin-top: -5px;
+    background-color: white;
+}
+.circuloOne{
+    border: 4px solid white;
+    border-radius: 280px;
+    width: 270px;
+    height: 280px;
+    margin-left: 1492px;
+    margin-top: -565px;
+}
+.golTraves{
+    border: 2px solid white;
+    width: 110px;
+    height: 1px;
+    margin-top: -389px;
+    background-color: white;
+    margin-left: 164px;
+}
+.golTravesOne{
+    position: absolute;
+    border: 4px solid white;
+    border-radius: 10px;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+    margin-left: 73px;
+    margin-top: 90px;
+}
+.golTravesTwo{
+    position: absolute;
+    border: 2px solid white;
+    width: 1px;
+    height: 230px;
+    margin-top: -5px;
+    margin-left: 163px;
+    background-color: white;
+}
+.golTravesThree{
+    border: 2px solid white;
+    width: 110px;
+    height: 1px;
+    margin-top: 224px;
+    margin-left: 164px;
+    background-color: white;
+}
+/*primeira risca da esquerda pra direita*/
+.riscasDoCampo{
+    position: absolute;
+    background-color:#4C7638;
+    margin-left: 4px;
+    width: 99px;
+    height: 828px;
+    margin-top: 1px;
+}
+.riscasDoTraveOne{
+    position: absolute;
+    background-color:#4C7638;
+    margin-left: 4px;
+    width: 99px;
+    height: 529px;
+    margin-top: -1px;
+}
+/*o fim da primeira risca*/
+
+/*Começo da Segunda linha*/
+.riscasDoCampoOne{
+    position: absolute;
+    background-color:#4C7638;
+    margin-left: 180px;
+    width: 90px;
+    height: 828px;
+    
+    margin-top: 1px;
+}
+.riscasDoTrave{
+    position: absolute;
+    background-color:#4C7638;
+    margin-left: 180px;
+    width: 90px;
+    height: 529px;
+    
+    margin-top: -1px;
+}
+/*Fim da Segunda linha*/
+
+.riscasDoCampoTwo{
+    position: absolute;
+    background-color:#4C7638;
+    margin-left: 395px;
+    width: 99px;
+    height: 828px;
+    
+    margin-top: 1px;
+}
+.riscasDoCampoThree{
+    position: absolute;
+    background-color:#4C7638;
+    margin-left: 595px;
+    width: 99px;
+    height: 828px;
+    margin-top: 1px;
+}
+.riscasDoCampoFour{
+    position: absolute;
+    background-color:#4C7638;
+    margin-left: 820px;
+    width: 99px;
+    height: 828px;
+    margin-top: 1px;
+}
+/*Primeira linha na parte da direita da esquerda a direita*/
+.riscasDoCampos{
+    background-color:#4C7638;
+    margin-left: 1020px;
+    width: 99px;
+    height: 828px;
+    margin-top: -555px;
+}
+.riscasDoCamposOne{
+    background-color:#4C7638;
+    margin-left: 1230px;
+    width: 99px;
+    height: 828px;
+    margin-top: -827px;
+}
+.riscasDoCamposTwo{
+    background-color:#4C7638;
+    margin-left: 1460px;
+    width: 104px;
+    height: 828px;
+    margin-top: -827px;
+}
+.riscasDoCamposThree{
+    background-color:#4C7638;
+    margin-left: 1660px;
+    width: 99px;
+    height: 828px;
+    margin-top: -827px;
+}
+.riscasDoTraves{
+    position: absolute;
+    background-color:#4C7638;
+    margin-left: 68px;
+    width: 99px;
+    height: 517px;
+
+    
+    margin-top: 7px;
+}
+
+
+.jogador{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.menuAlto{
+   position: relative;
+    border: 1px solid white;
+    width: 935px;
+    height: 442px;
+    background-color: white;
+    left: 947px;
+    text-align: center;
+    margin-top: -160px;
+    
+}
+.area{
+    width: 200px;
+    height: 200px;
+    
+    float: left;
+    margin: 16px;
+   border-radius: 20px;
+}
+
+#mba{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#area_1{
+    position: absolute;
+    right: 1470px;
+    margin-top: 87px;
+}
+#area_2{
+    position: absolute;
+    margin-top: -425px;
+    margin-left: 1680px;
+}
+#area_3{
+    position: absolute;
+    margin-top: -425px;
+    margin-left: 1520px;
+}
+#area_4{
+    position: absolute;
+    margin-top: -425px;
+    margin-left: 1345px;
+}
+#area_5{
+    position: absolute;
+    margin-top: -227px;
+    margin-left: 1345px;
+}
+#area_6{
+    position: absolute;
+    margin-top: -227px;
+    margin-left: 1515px;
+}
+#area_7{
+    position: absolute;
+    margin-top: -227px;
+    margin-left: 1683px;
+}
+#area_8{
+    position: absolute;
+    margin-top: -425px;
+    margin-left: 1169px;
+}
+#area_9{
+    position: absolute;
+    margin-top: -227px;
+    margin-left: 1169px;
+}
+#area_10{
+    position: absolute;
+    margin-top: -227px;
+    margin-left: 995px;
+}
+#area_11{
+    position: absolute;
+    margin-top: -333px;
+    
+}
+#area_12{
+    position: absolute;
+    margin-top: -425px;
+    margin-left: 1000px;
+}
+#area_13{
+    position: absolute;
+    margin-top: -333px;
+    margin-left: 375px;
+}
+#never{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    left: 35px;
+    margin-top: 1px;
+}
+#ney{
+    position: relative;
+    width: 80%;
+    height: 104%;
+    left: 25px;
+    margin-top: -3px;
+}
+#messi{
+    position: relative;
+    width: 80%;
+    height: 104%;
+    left: 25px;
+    margin-top: -3px;
+}
+#van{
+    position: relative;
+    width: 80%;
+    height: 106%;
+    left: 25px;
+    margin-top: -7px;
+}
+#bruyne{
+    position: relative;
+    width: 80%;
+    height: 106%;
+    left: 25px;
+    margin-top: -7px;
+}
+#kante{
+    position: relative;
+    width: 70%;
+    height: 102%;
+    left: 35px;
+    margin-top: -1px;
+}
+#cr7{
+    position: relative;
+    width: 70%;
+    height: 106%;
+    left: 35px;
+    margin-top: -6px;
+}
+#kroos{
+    position: relative;
+   left: 40px;
+}
+#sergio{
+    position: relative;
+    width: 85%;
+    height: 106%;
+    left: 20px;
+    margin-top: -12px;
+}
+#casemiro{
+    position: relative;
+    width: 68%;
+    height: 100%;
+    left: 35px;
+    margin-top: 1px;
+}
+#marcelo{
+    position: relative;
+    width: 90%;
+    height: 113%;
+    left: 15px;
+    margin-top: -11px;
+}
+#carvajal{
+    position: relative;
+    width: 85%;
+    height: 108%;
+    left: 15px;
+    margin-top: -9px;
+}
+#campo_1{
+    position: absolute;
+    margin-top: -867px;
+    margin-left: 40px;
+    background-color: #00ff4312;
+    border-radius: 100px;
+
+}
+#campo_2{
+    position: absolute;
+    margin-top: -1170px;
+    margin-left: 340px;
+    background-color: #00ff4312;
+    border-radius: 100px;
+
+}
+#campo_3{
+    position: absolute;
+    margin-top: -570px;
+    margin-left: 330px;
+    background-color: #00ff4312;
+    border-radius: 100px;
+
+}
+#campo_4{
+    position: absolute;
+    margin-top: -979px;
+    margin-left: 250px;
+    background-color: #00ff4312;
+    border-radius: 100px;
+
+}
+#campo_5{
+    position: absolute;
+    margin-top: -770px;
+    margin-left: 250px;
+    background-color: #00ff4312;
+    border-radius: 100px;
+
+}
+#campo_6{
+    position: absolute;
+    margin-top: -870px;
+    margin-left: 550px;
+    background-color: #00ff4312;
+    border-radius: 100px;
+
+}
+#campo_7{
+    position: absolute;
+    margin-top: -1090px;
+    margin-left: 730px;
+    background-color: #00ff4312;
+    border-radius: 100px;
+
+}
+#campo_8{
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 730px;
+    background-color: #00ff4312;
+    border-radius: 100px;
+
+}
+#campo_9{
+    position: absolute;
+    margin-top: -1170px;
+    margin-left: 1130px;
+    background-color: #00ff4312;
+    border-radius: 100px;
+
+}
+
+#campo_10{
+    position: absolute;
+    margin-top: -900px;
+    margin-left: 1330px;
+    background-color: #00ff4312;
+    border-radius: 100px;
+}
+#campo_11{
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 1120px;
+    background-color: #00ff4312;
+    border-radius: 100px;
+
+}
+@keyframes typing{
+    from{
+      height: 0;
+      width: 0;
+    }
+    to{
+        width: 1870px;
+        height: 830px;
+    }
+  }
+  .typing-animation{
+    animation: typing 9s steps(75) 1s normal both;
+  }
+
